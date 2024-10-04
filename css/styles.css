@@ -49,6 +49,7 @@ nav li {
 }
 
 nav a {
+    text-align: center;
     text-decoration: none;
     padding: 10px 15px;
     color: black;
