@@ -9,7 +9,13 @@ body {
     background-color: #800000;
     width: 100%;
 }
-  
+
+#header-imge {
+    border-radius: 10px;
+    max-width: 90%;
+    max-height: 95%;
+}   
+
 header {
     background-color: #FFDF00;
     margin-top: 0;
