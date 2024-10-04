@@ -18,7 +18,8 @@ header {
     text-align: center;
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    box-shadow: #05014a;
+    box-shadow: 0 8px 8px #05014a;
+    height: 200px;
 }
 
 #header-image {
@@ -27,6 +28,8 @@ header {
     max-height: 50%;
     width: auto;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }  
 
 nav {
