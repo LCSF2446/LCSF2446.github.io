@@ -10,12 +10,6 @@ body {
     width: 100%;
 }
 
-#header-image {
-    border-radius: 10px;
-    max-width: 90%;
-    max-height: 90%;
-}   
-
 header {
     background-color: #FFDF00;
     margin-top: 0;
@@ -26,10 +20,15 @@ header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-shadow: #05014a;
 }
-  
+
+.header-image {
+    border-radius: 10px;
+    max-width: 90%;
+    max-height: 90%;
+}  
+
 nav {
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
