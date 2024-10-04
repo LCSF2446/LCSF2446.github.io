@@ -36,6 +36,24 @@ nav {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-center: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+}
+
 main {
     display: block;
     text-align: center;
@@ -51,15 +69,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
     color: olive;
-}
-
-nav ul, nav ol {
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
 
 footer {
