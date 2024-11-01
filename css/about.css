@@ -137,6 +137,14 @@ footer {
         max-width: 100%;
         height: auto;
     }
+    
+    .tablet {
+        display: none;
+    }
+
+    .mobile {
+        text-decoration: none;
+    }
 }
 
 @media (min-width: 768px) {
@@ -168,4 +176,7 @@ footer {
     nav a:visited {
         color: red;
     }
+
+    .desktop {
+        
 }
