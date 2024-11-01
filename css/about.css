@@ -131,6 +131,11 @@ footer {
         flex-direction: column;
         margin: 10px;
     }
+
+    .desktop {
+        display: flex;
+        flex-direction: column;
+    }
     
     .tablet {
         display: none;
@@ -160,6 +165,20 @@ footer {
     nav a:visited {
         color: cyan;
     }
+
+    .mobile {
+        display: flex
+    }
+
+    .tablet {
+        display: flex;
+        width: auto;
+        height: auto;
+    }
+
+    .desktop {
+        text-decoration: none;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -171,6 +190,15 @@ footer {
         color: red;
     }
 
+    .mobile {
+        display: flex;
+    }
+
+    .tablet {
+        display: flex;
+        flex-direction: column;
+    }
+    
     .desktop {
         font-family: cursive, fantasy, sans-serif;
     }
