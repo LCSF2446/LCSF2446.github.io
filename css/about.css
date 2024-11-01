@@ -129,13 +129,7 @@ footer {
     nav {
         width: 100%;
         flex-direction: column;
-    }
-
-    .iframe {
-        display: flex;
-        width: 100%;
-        max-width: 100%;
-        height: auto;
+        margin: 10px;
     }
     
     .tablet {
