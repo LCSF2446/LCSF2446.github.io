@@ -68,7 +68,8 @@ h2 {
 
 h3 {
     font-size: 1.25em;
-    color: white
+    color: white;
+    padding-top: 15px
 }
 
 h4 {
@@ -104,8 +105,19 @@ footer {
     position: absolute;
 }
 
+article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 20px;
+}
+
 figure {
     margin: 20px;
+}
+
+figcaption {
+    margin-top: 20px;
 }
 
 #index-img {
